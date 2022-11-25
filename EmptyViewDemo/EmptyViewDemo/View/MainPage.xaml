@@ -77,8 +77,8 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Change EmptyView" FontSize="14" TextColor="#666666" FontFamily="Roboto-Regular" VerticalTextAlignment="Center"/>
-                <CheckBox Grid.Column="1" x:Name="checkBox" IsChecked="False"/>
-                <Label Grid.Column="2" Text="{Binding Text}" FontSize="14" TextColor="#666666" FontFamily="Roboto-Regular" VerticalTextAlignment="Center" Margin="10,0,0,0"/>
+                <CheckBox Grid.Column="1" x:Name="checkBox" IsChecked="False" Margin="5,0,0,0"/>
+                <Label Grid.Column="2" Text="{Binding Text}" FontSize="14" TextColor="#666666" FontFamily="Roboto-Regular" VerticalTextAlignment="Center" Margin="10,0,0,0" HeightRequest="50"/>
             </Grid>
 
             <syncfusion:SfListView x:Name="listView" 
