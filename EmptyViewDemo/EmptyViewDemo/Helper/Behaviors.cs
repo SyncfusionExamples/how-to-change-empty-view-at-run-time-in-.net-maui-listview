@@ -68,7 +68,11 @@ namespace EmptyViewDemo
             ListView = null;
             sortImageParent = null;
             searchBar = null;
+            checkBox = null;
+            singleView = null;
+            multiView = null;
             searchBar.TextChanged -= SearchBar_TextChanged;
+            checkBox.CheckedChanged -= CheckBox_CheckedChanged;
             base.OnDetachingFrom(bindable);
         }
 
