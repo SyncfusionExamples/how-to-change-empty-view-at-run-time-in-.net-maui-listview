@@ -89,7 +89,7 @@
                        Grid.Row="4"
                        SelectionMode="None"                                     
                        ItemsSource="{Binding Items}"                      
-                       ItemSize="56"  EmptyView="{StaticResource SingleView}">             
+                       ItemSize="56" EmptyView="{StaticResource SingleView}">             
 
                 <syncfusion:SfListView.ItemTemplate>
                     <DataTemplate x:Name="ItemTemplate">

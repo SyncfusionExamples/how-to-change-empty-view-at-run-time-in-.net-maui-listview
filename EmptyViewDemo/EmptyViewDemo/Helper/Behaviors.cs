@@ -84,7 +84,7 @@ namespace EmptyViewDemo
             searchBar = (sender as SearchBar);
             if (ListView.DataSource != null)
             {
-                ListView.DataSource.Filter = FilterContacts;
+                ListView.DataSource.Filter = FilterItems;
                 ListView.DataSource.RefreshFilter();
             }
             ListView.RefreshView();
@@ -124,7 +124,7 @@ namespace EmptyViewDemo
         #endregion
 
         #region Methods
-        private bool FilterContacts(object obj)
+        private bool FilterItems(object obj)
         {
             if (searchBar == null || searchBar.Text == null)
                 return true;
