@@ -1,6 +1,6 @@
-# how-to-change-empty-view-at-run-time-in-.net-maui-listview
+# How to change empty view at run time in .NET MAUI ListView (SfListView)?
 
-This demo shows about how to change empty view at run time in .NET MAUI ListView.
+This demo shows about how to change empty view at run time in .NET MAUI ListView (SfListView).
 
 ## Sample
 
